@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FASK OVUNQUE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="centrare">
+    <title>
+      Metti i FASK ovunque nel mondo!
+    </title>
+    <h1>
+      <font size="8" face="arial">FASK OVUNQUE </font>
+    </h1>
+    <form action="" method="post">
+      <p>
+
+
+        <div class="form">
+          <form action="" method="post">
+            <label for="address/location"></label>
+            <input type="text" name="address/location" placeholder="inserisci un indirizzo">
+            <input type="submit" value="&rarr;">
+          </form>
+      </p>
+
+    </form>
+    {% if location %}
+    <p>
+      <font size="4" face="arial">I FASK a {{ location }}: </font>
+    </p>
+    {% endif %}
+    {% if image %}
+    <img id="picture" src="data:image/jpeg;base64,{{ image }}">
+    {% endif %}
+
+    <p>
+      <font size="2" face="arial">Salva la tua immagine e condividila <a
+          href="https://www.instagram.com/fastanimalsandslowkids/">@fastanimalsandslowkids</a> </font>
+      <p>
+
+        </BR>
+
+        <p> <i>
+            <font size="2" face="arial"> <a href="https://github.com/Ste-SR/fask-ovunque">Un sito</a> dal un progetto "Put Bernie Anywhere" by Nick Sawhney <a
+                href="https://twitter.com/nick_sawhney" target="_blank">@nick_sawhney</a>
+          </i>
+          <p>
+  </div>
+
+</body>
+
+</html>

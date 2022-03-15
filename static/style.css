@@ -1,0 +1,33 @@
+.main > img,
+.main > p {
+    display: inline-block;
+}
+body {display: grid;
+}
+
+title{grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
+  }
+
+html {
+font-size: 100%;
+}
+h1 {
+font-size: 1.5rem;
+}
+p, input {
+font-size: 1.2rem;
+}
+
+.centrare {
+    text-align: center;
+  }

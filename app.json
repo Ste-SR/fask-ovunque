@@ -1,0 +1,18 @@
+{
+  "name": "FASK Ovunque",
+  "description": "Un sito che ti permette di mettere i FASK ovunque",
+  "repository": "https://github.com/Ste-SR/fask-ovunque",
+  "keywords": ["fask", "fast animals and slow kids", "meme", "viral"],
+  "env": {
+    "KEY": {
+      "description": "Your Google API Key"
+      },
+    "SECRET": {
+      "description": "Google Cloud API Secret for signing URLs"
+    },
+    "API_URL": {
+      "value": "https://maps.googleapis.com/maps/api/streetview",
+      "required": true
+    }
+  }
+}
