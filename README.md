@@ -1,6 +1,6 @@
 # Fask Ovunque
 
-From a project by [Nick Sawhney]("https://github.com/nicksawhney/bernie-sits"), modified code published according to the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html).
+From a project by [Nick Sawhney]("https://github.com/nicksawhney/bernie-sits/"), modified code published according to the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
